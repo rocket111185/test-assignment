@@ -1,0 +1,11 @@
+{
+  "expressErrorHandling": false,
+  "development": {
+    "port": 3000,
+    "store": {
+      "adapter": "mongodb",
+      "url": "mongodb+srv://admin:dbPassword@cluster0.8r0jj.mongodb.net/testassignment",
+      "collection": "AddonSettings"
+    }
+  }
+}
